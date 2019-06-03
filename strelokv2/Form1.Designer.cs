@@ -33,7 +33,6 @@
             this.уровеньToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.учебнаяСтрельбаxyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.боеваяСтрельбаxyToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.боеваяСтрельбаuRToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.выходToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
@@ -67,8 +66,7 @@
             // 
             this.уровеньToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.учебнаяСтрельбаxyToolStripMenuItem,
-            this.боеваяСтрельбаxyToolStripMenuItem,
-            this.боеваяСтрельбаuRToolStripMenuItem});
+            this.боеваяСтрельбаxyToolStripMenuItem});
             this.уровеньToolStripMenuItem.Name = "уровеньToolStripMenuItem";
             this.уровеньToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.уровеньToolStripMenuItem.Text = "Уровень";
@@ -84,12 +82,6 @@
             this.боеваяСтрельбаxyToolStripMenuItem.Name = "боеваяСтрельбаxyToolStripMenuItem";
             this.боеваяСтрельбаxyToolStripMenuItem.Size = new System.Drawing.Size(241, 26);
             this.боеваяСтрельбаxyToolStripMenuItem.Text = "Боевая стрельба (x,y)";
-            // 
-            // боеваяСтрельбаuRToolStripMenuItem
-            // 
-            this.боеваяСтрельбаuRToolStripMenuItem.Name = "боеваяСтрельбаuRToolStripMenuItem";
-            this.боеваяСтрельбаuRToolStripMenuItem.Size = new System.Drawing.Size(241, 26);
-            this.боеваяСтрельбаuRToolStripMenuItem.Text = "Боевая стрельба (u,R)";
             // 
             // выходToolStripMenuItem
             // 
@@ -240,7 +232,6 @@
         private System.Windows.Forms.ToolStripMenuItem уровеньToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem учебнаяСтрельбаxyToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem боеваяСтрельбаxyToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem боеваяСтрельбаuRToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem выходToolStripMenuItem;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
